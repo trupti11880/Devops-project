@@ -12,7 +12,7 @@ APP_NAME = os.getenv("APP_NAME", "DevOps Demo")
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Welcome to DevOps Project",
+        "message": "Welcome to DevOps Project! Check the health and status endpoints.",
         "application": APP_NAME
     })
 
